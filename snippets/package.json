@@ -1,0 +1,19 @@
+{
+  "name": "user-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "all",
+        "path": "./global.json"
+      },
+      {
+        "language": "zig",
+        "path": "./zig.json"
+      },
+      {
+        "language": "odin",
+        "path": "./odin.json"
+      }
+    ]
+  }
+}

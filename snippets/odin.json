@@ -1,0 +1,20 @@
+{
+  "Procedure": {
+    "prefix": "proc",
+    "body": [
+      "${1:name} :: proc(${2}) {",
+      "\t${0}",
+      "}"
+    ],
+    "description": "Odin procedure"
+  },
+  "Procedure with return value": {
+    "prefix": "procr",
+    "body": [
+      "${1:name} :: proc(${2}) -> ${3:return_type} {",
+      "\t${0}",
+      "}"
+    ],
+    "description": "Odin procedure with a return value"
+  }
+}

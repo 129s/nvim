@@ -1,0 +1,22 @@
+{
+  "If optional capture": {
+    "prefix": "ifo",
+    "body": [
+      "if (${1:optional}) |${2:value}| {",
+      "\t$0",
+      "}"
+    ],
+    "description": "If with optional payload capture"
+  },
+  "If optional capture else": {
+    "prefix": "ifoe",
+    "body": [
+      "if (${1:optional}) |${2:value}| {",
+      "\t${3}",
+      "} else {",
+      "\t$0",
+      "}"
+    ],
+    "description": "If-else with optional payload capture"
+  }
+}
