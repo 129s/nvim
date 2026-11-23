@@ -11,6 +11,10 @@
         "path": "./zig.json"
       },
       {
+        "language": ["c","cpp"],
+        "path": "./c.json"
+      },
+      {
         "language": "odin",
         "path": "./odin.json"
       }

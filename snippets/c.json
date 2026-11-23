@@ -1,0 +1,11 @@
+{
+  "Typedef Struct": {
+    "prefix": "tds",
+    "body": [
+      "typedef struct {",
+      "\t$2",
+      "} $1;"
+    ],
+    "description": "Create a typedef struct"
+  }
+}
